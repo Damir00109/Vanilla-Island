@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "v_island",
+	"version": "${version}",
+	"name": "Vanilla+ Island",
+	"description": "Остров Vanilla+!",
+	"authors": [
+		"Damir00109!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/v_island/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.damir00109.VanillaIsland"
+		]
+	},
+	"mixins": [
+		"v_island.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
